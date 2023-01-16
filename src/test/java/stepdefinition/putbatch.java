@@ -1,4 +1,4 @@
-package batch;
+package stepdefinition;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -25,10 +25,10 @@ public class putbatch {
 	RequestSpecification request;
 	Map<String,Object> requestParams;
 	Response response;
-@Given("A update Service with URL and path")
-public void a_service_with_url_at_path() {
+@Given("A update Service with URL and path {string}")
+public void a_service_with_url_at_path(String batchId) {
 	RestAssured.baseURI = "https://lms-backend-service.herokuapp.com/lms";
-	path = "/batches/1401";
+	path = "/batches/"+batchId;
 }
 
 @When("{string},{string},{string},{string},{string},{string},creationTime,lastModTime are updated")
@@ -42,8 +42,8 @@ public void ID_creation_time_last_mod_time_are_modified(String batchId, String b
 //	requestParams.put("creationTime", time);
 //	requestParams.put("lastModTime", time);
 //    | BatchID | batchDescription      | batchStatus | programId | programName |
-
-	requestParams.put("batchName", batchId);
+//String batchName="bluetooth834";
+	requestParams.put("batchName",batchId );
 	requestParams.put("batchDescription", batchDesc);
 	requestParams.put("batchStatus", batchStatus);
 	requestParams.put("batchNoOfClasses", batchNoOfClasses);

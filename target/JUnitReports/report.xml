@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.921" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="To Verify Get  all programs API automation with Rest Assured" name="Test Get all programs" time="2.253">
+<system-out><![CDATA[
+Given get all programs URL and path.........................................passed
+When Get request for all programs...........................................passed
+Then Validate the Get status code...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Get batch by ProgramId API automation with Rest Assured" name="Test Get batch by program Id - Example #1.1" time="0.153">
+<system-out><![CDATA[
+Given Get by programId service with URL and path............................passed
+When Get request by 3737 is made............................................passed
+Then Validate the Get status code for get allPgm............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify batch id --- API automation with Rest Assured" name="Update Batch by ID - Example #1.1" time="1.32">
+<system-out><![CDATA[
+Given A update Service with URL and path "1255".............................passed
+When "1255","API Training  2023","Active","184","1255","Program-2023051236583",creationTime,lastModTime are updated.passed
+And PUT request is made.....................................................passed
+Then Save batchId...........................................................passed
+And Validate status code....................................................passed
+And Validate required fields "1255","API Training  2023","Active"...........passed
+]]></system-out>
+</testcase>
+</testsuite>
