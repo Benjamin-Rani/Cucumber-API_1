@@ -1,1 +1,312 @@
-[{"line":2,"elements":[{"start_timestamp":"2023-01-16T18:44:25.354Z","line":4,"name":"Test Get all programs","description":"","id":"to-verify-get--all-programs-api-automation-with-rest-assured;test-get-all-programs","type":"scenario","keyword":"Scenario Outline","steps":[{"result":{"duration":621619100,"status":"passed"},"line":5,"name":"get all programs URL and path","match":{"location":"stepdefinition.getAllProgram.the_batch_by_program_id_service_with_url_and_path()"},"keyword":"Given "},{"result":{"duration":2055442400,"status":"passed"},"line":6,"name":"Get request for all programs","match":{"location":"stepdefinition.getAllProgram.get_request_by_is_made()"},"keyword":"When "},{"result":{"duration":2992500,"status":"passed"},"line":7,"name":"Validate the Get status code","match":{"location":"stepdefinition.getAllProgram.validate_the_get_status_code()"},"keyword":"Then "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]}],"name":"To Verify Get  all programs API automation with Rest Assured","description":"","id":"to-verify-get--all-programs-api-automation-with-rest-assured","keyword":"Feature","uri":"file:src/test/resources/Features/getAllProgram.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":1,"column":1}}]},{"line":2,"elements":[{"start_timestamp":"2023-01-16T18:44:28.075Z","line":12,"name":"Test Get batch by program Id","description":"","id":"to-verify-get-batch-by-programid-api-automation-with-rest-assured;test-get-batch-by-program-id;;2","type":"scenario","keyword":"Scenario Outline","steps":[{"result":{"status":"passed"},"line":5,"name":"Get by programId service with URL and path","match":{"location":"stepdefinition.getByProgramId.the_batch_by_program_id_service_with_url_and_path()"},"keyword":"Given "},{"result":{"duration":152689100,"status":"passed"},"line":6,"name":"Get request by 3737 is made","match":{"arguments":[{"val":"3737","offset":15}],"location":"stepdefinition.getByProgramId.get_request_by_is_made(int)"},"keyword":"When "},{"result":{"status":"passed"},"line":7,"name":"Validate the Get status code for get allPgm","match":{"location":"stepdefinition.getByProgramId.validate_the_get_status_code()"},"keyword":"Then "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]}],"name":"To Verify Get batch by ProgramId API automation with Rest Assured","description":"","id":"to-verify-get-batch-by-programid-api-automation-with-rest-assured","keyword":"Feature","uri":"file:src/test/resources/Features/getProgramById.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":1,"column":1}}]},{"line":2,"elements":[{"start_timestamp":"2023-01-16T18:44:28.243Z","line":15,"name":"Update Batch by ID","description":"","id":"to-verify-batch-id-----api-automation-with-rest-assured;update-batch-by-id;;2","type":"scenario","keyword":"Scenario Outline","steps":[{"result":{"duration":997500,"status":"passed"},"line":6,"name":"A update Service with URL and path \"1255\"","match":{"arguments":[{"val":"\"1255\"","offset":35}],"location":"stepdefinition.putbatch.a_service_with_url_at_path(java.lang.String)"},"keyword":"Given "},{"result":{"duration":12023200,"status":"passed"},"line":7,"name":"\"1255\",\"API Training  2023\",\"Active\",\"184\",\"1255\",\"Program-2023051236583\",creationTime,lastModTime are updated","match":{"arguments":[{"val":"\"1255\"","offset":0},{"val":"\"API Training  2023\"","offset":7},{"val":"\"Active\"","offset":28},{"val":"\"184\"","offset":37},{"val":"\"1255\"","offset":43},{"val":"\"Program-2023051236583\"","offset":50}],"location":"stepdefinition.putbatch.ID_creation_time_last_mod_time_are_modified(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"},"keyword":"When "},{"result":{"duration":347328900,"status":"passed"},"line":8,"name":"PUT request is made","match":{"location":"stepdefinition.putbatch.put_request_is_made()"},"keyword":"And "},{"result":{"duration":204421800,"status":"passed"},"line":9,"name":"Save batchId","match":{"location":"stepdefinition.putbatch.save_batch_id()"},"keyword":"Then "},{"result":{"status":"passed"},"line":10,"name":"Validate status code","match":{"location":"stepdefinition.putbatch.validate_status_code()"},"keyword":"And "},{"result":{"duration":841553800,"status":"passed"},"line":11,"name":"Validate required fields \"1255\",\"API Training  2023\",\"Active\"","match":{"arguments":[{"val":"\"1255\"","offset":25},{"val":"\"API Training  2023\"","offset":32},{"val":"\"Active\"","offset":53}],"location":"stepdefinition.putbatch.id_api_training_2023_Active(java.lang.String,java.lang.String,java.lang.String)"},"keyword":"And "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]}],"name":"To Verify batch id --- API automation with Rest Assured","description":"","id":"to-verify-batch-id-----api-automation-with-rest-assured","keyword":"Feature","uri":"file:src/test/resources/Features/putbatch.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":1,"column":1}}]}]
+[
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2023-01-17T01:05:49.395Z",
+				"line": 4,
+				"name": "Test Get all programs",
+				"description": "",
+				"id": "to-verify-get--all-programs-api-automation-with-rest-assured;test-get-all-programs",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 328429300,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "get all programs URL and path",
+						"match": {
+							"location": "stepdefinition.getAllProgram.the_batch_by_program_id_service_with_url_and_path()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 1212433000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "Get request for all programs",
+						"match": {
+							"location": "stepdefinition.getAllProgram.get_request_by_is_made()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 2993400,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "Validate the Get status code",
+						"match": {
+							"location": "stepdefinition.getAllProgram.validate_the_get_status_code()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@tag"
+					},
+					{
+						"name": "@tag1"
+					}
+				]
+			}
+		],
+		"name": "To Verify Get  all programs API automation with Rest Assured",
+		"description": "",
+		"id": "to-verify-get--all-programs-api-automation-with-rest-assured",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Features/getAllProgram.feature",
+		"tags": [
+			{
+				"name": "@tag",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			}
+		]
+	},
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2023-01-17T01:05:50.976Z",
+				"line": 12,
+				"name": "Test Get batch by program Id",
+				"description": "",
+				"id": "to-verify-get-batch-by-programid-api-automation-with-rest-assured;test-get-batch-by-program-id;;2",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "Get by programId service with URL and path",
+						"match": {
+							"location": "stepdefinition.getByProgramId.the_batch_by_program_id_service_with_url_and_path()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 175017400,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "Get request by 3737 is made",
+						"match": {
+							"arguments": [
+								{
+									"val": "3737",
+									"offset": 15
+								}
+							],
+							"location": "stepdefinition.getByProgramId.get_request_by_is_made(int)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 998700,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "Validate the Get status code for get allPgm",
+						"match": {
+							"location": "stepdefinition.getByProgramId.validate_the_get_status_code()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@tag"
+					},
+					{
+						"name": "@tag1"
+					}
+				]
+			}
+		],
+		"name": "To Verify Get batch by ProgramId API automation with Rest Assured",
+		"description": "",
+		"id": "to-verify-get-batch-by-programid-api-automation-with-rest-assured",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Features/getProgramById.feature",
+		"tags": [
+			{
+				"name": "@tag",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			}
+		]
+	},
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2023-01-17T01:05:51.159Z",
+				"line": 15,
+				"name": "Update Batch by ID",
+				"description": "",
+				"id": "to-verify-batch-id-----api-automation-with-rest-assured;update-batch-by-id;;2",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "A update Service with URL and path \"1255\"",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"1255\"",
+									"offset": 35
+								}
+							],
+							"location": "stepdefinition.putbatch.a_service_with_url_at_path(java.lang.String)"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 4448200,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "\"1255\",\"API Training  2023\",\"Active\",\"184\",\"1255\",\"Program-2023051236583\",creationTime,lastModTime are updated",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"1255\"",
+									"offset": 0
+								},
+								{
+									"val": "\"API Training  2023\"",
+									"offset": 7
+								},
+								{
+									"val": "\"Active\"",
+									"offset": 28
+								},
+								{
+									"val": "\"184\"",
+									"offset": 37
+								},
+								{
+									"val": "\"1255\"",
+									"offset": 43
+								},
+								{
+									"val": "\"Program-2023051236583\"",
+									"offset": 50
+								}
+							],
+							"location": "stepdefinition.putbatch.ID_creation_time_last_mod_time_are_modified(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 239332400,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "PUT request is made",
+						"match": {
+							"location": "stepdefinition.putbatch.put_request_is_made()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 160924800,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "Save batchId",
+						"match": {
+							"location": "stepdefinition.putbatch.save_batch_id()"
+						},
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "Validate status code",
+						"match": {
+							"location": "stepdefinition.putbatch.validate_status_code()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 462821700,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "Validate required fields \"1255\",\"API Training  2023\",\"Active\"",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"1255\"",
+									"offset": 25
+								},
+								{
+									"val": "\"API Training  2023\"",
+									"offset": 32
+								},
+								{
+									"val": "\"Active\"",
+									"offset": 53
+								}
+							],
+							"location": "stepdefinition.putbatch.id_api_training_2023_Active(java.lang.String,java.lang.String,java.lang.String)"
+						},
+						"keyword": "And "
+					}
+				],
+				"tags": [
+					{
+						"name": "@tag"
+					},
+					{
+						"name": "@tag1"
+					}
+				]
+			}
+		],
+		"name": "To Verify batch id --- API automation with Rest Assured",
+		"description": "",
+		"id": "to-verify-batch-id-----api-automation-with-rest-assured",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Features/putbatch.feature",
+		"tags": [
+			{
+				"name": "@tag",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			}
+		]
+	}
+]
